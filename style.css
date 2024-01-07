@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-image: url('img/bg.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    margin: 5px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Press Start 2P", cursive;
+    font-size: 12px;
+    text-align: center;
+}
+
+.grid-container {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.green {
+    background-color: yellowgreen;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+h6 {
+    margin: 0;
+}
+
+.circle-container .circle,
+.circle-container h6 {
+    margin-bottom: 5px;
+}
+
+.number-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grid-item {
+    width: 35px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+#item1 {
+    background-color: greenyellow;
+}
+
+#item2 {
+    background-color: greenyellow;
+}
+
+#item3 {
+    background-color: greenyellow;
+}
+
+#item4 {
+    background-color: red;
+}
+
+#item5 {
+    background-color: greenyellow;
+}
+
+#item6 {
+    background-color: greenyellow;
+}
+
+#item7 {
+    background-color: greenyellow;
+}
+
+#item8 {
+    background-color: yellow;
+}
+
+#item9 {
+    background-color: greenyellow;
+}
+
+#item10 {
+    background-color: greenyellow;
+}
+
+#item11 {
+    background-color: greenyellow;
+}
+
+#item12 {
+    background-color: greenyellow;
+}
+
+#item13 {
+    background-color: yellow;
+}
+
+#item14 {
+    background-color: greenyellow;
+}
+
+#item15 {
+    background-color: greenyellow;
+}
+
+#item16 {
+    background-color: greenyellow;
+}
+
+#item17 {
+    background-color: greenyellow;
+}
+
+#item18 {
+    background-color: greenyellow;
+}
+
+#item19 {
+    background-color: greenyellow;
+}
+
+#item20 {
+    background-color: yellow;
+}
+
+#item21 {
+    background-color: greenyellow;
+}
+
+#item22 {
+    background-color: yellow;
+}
+
+#item23 {
+    background-color: greenyellow;
+}
+
+#item24 {
+    background-color: greenyellow;
+}
+
+#item25 {
+    background-color: red;
+}
+
+#item26 {
+    background-color: greenyellow;
+}
+
+#item27 {
+    background-color: greenyellow;
+}
+
+#item28 {
+    background-color: yellow;
+}
+
+#item29 {
+    background-color: greenyellow;
+}
+
+#item30 {
+    background-color: greenyellow;
+}
+
+#item31 {
+    background-color: red;
+}
+
+#item32 {
+    background-color: yellow;
+}
+
+#item33 {
+    background-color: red;
+}
+
+#item34 {
+    background-color: greenyellow;
+}
+
+#item35 {
+    background-color: greenyellow;
+}
+
+#item36 {
+    background-color: greenyellow;
+}
+
+#item37 {
+    background-color: greenyellow;
+}
+
+#item38 {
+    background-color: greenyellow;
+}
+
+#item39 {
+    background-color: yellow;
+}
+
+#item40 {
+    background-color: greenyellow;
+}
+
+#item41 {
+    background-color: yellow;
+}
+
+#item42 {
+    background-color: greenyellow;
+}
+
+#item43 {
+    background-color: greenyellow;
+}
+
+#item44 {
+    background-color: greenyellow;
+}
+
+#item45 {
+    background-color: greenyellow;
+}
+
+#item46 {
+    background-color: greenyellow;
+}
+
+#item47 {
+    background-color: greenyellow;
+}
+
+#item48 {
+    background-color: greenyellow;
+}
+
+#item49 {
+    background-color: greenyellow;
+}
+
+#item50 {
+    background-color: red;
+}
+
+.back-button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.questions {
+    width: 270px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: transform 0s, box-shadow 0.3s;
+    font-family: 'Press Start 2P', cursive;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.questions:hover {
+    transform: translateY(2px);
+    background-color: #FF7B06;
+}
